@@ -13,8 +13,6 @@
     align-items: center;
     height: 100vh;
     background-image: url('../images/bg_login.png');
-    background-size: cover;
-    background-position: center;
     justify-content: center;
 }
 
