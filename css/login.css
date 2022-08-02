@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'The Simpsons';
+    src: url('../fonts/Homer_Simpson_Revised.ttf') format('truetype');
+}
+
+*{
+    font-family: 'The Simpsons', cursive;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/bg_login.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.login_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login_header img{
+    width: 150px;
+}
+
+.login_header h1{
+    color: #ff6600;
+    font-size: 2.2em;
+    margin: 13px 0px -15px 0px
+}
+
+.login_input{
+    border: 2px solid #333;
+    border-radius: 30px;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 350px;
+    outline: none;
+    padding: 12px;
+}
+
+.login_button{
+    background-color: #fab9c6;
+    color: #9b0576;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 250px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.login_button:disabled{
+    color: rgb(201, 199, 199);
+    background-color: #f6efef;
+    cursor: auto;
+}
