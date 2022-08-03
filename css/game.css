@@ -7,10 +7,29 @@
     font-family: 'The Simpsons', cursive;
 }
 
-body{
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background-image: url(../images/bg.png);
     background-size: cover;
-    background-position: center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    margin: 0 0 30px 0;
+    border-radius: 5px;
+    font-size: 1.5em;
 }
 
 .grid{
@@ -19,13 +38,13 @@ body{
     gap: 15px;
     width: 100%;
     max-width: 800px;
-    margin: 45px auto;
+    margin: 0 auto;
 }
 
 .card{
     aspect-ratio: 3/4;
     width: 100%;
-    background-color: gainsboro;
+    background-color: #ccc;
     border-radius: 5px;
     position: relative;
     transition: all 400ms ease;
