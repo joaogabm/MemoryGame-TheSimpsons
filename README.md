@@ -1,3 +1,3 @@
 # MemoryGame-TheSimpsons
 
-https://github.com/joaogabm/MemoryGame-TheSimpsons/settings/pages
+https://joaogabm.github.io/MemoryGame-TheSimpsons/
